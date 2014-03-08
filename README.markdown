@@ -1,12 +1,8 @@
 ## Hyperic HQ CouchDB plugin
 
 This project is a Hyperic HQ plugin for monitoring [CouchDB](http://couchdb.apache.org/)
-
-Source code is available at [github.com/hyperic/hq-couchdb](http://github.com/hyperic/hq-couchdb)
-
-Plugin binary is available at [hudson.hyperic.com/job/hq-couchdb-plugin](http://hudson.hyperic.com/job/hq-couchdb-plugin/)
-
-More info at [HyperForge/CouchDB](http://support.hyperic.com/display/hypcomm/CouchDB)
+derived from [github.com/hyperic/hq-couchdb](http://github.com/hyperic/hq-couchdb) and ported
+to hyperic 5.7.x
 
 ### Auto-Discovery
 
@@ -43,13 +39,9 @@ None yet.
 
 ### CouchDB version support
 
-Tested on Linux using the RPMs installed via the
-[chef ELFF guide](http://wiki.opscode.com/display/chef/Enterprise+Linux+variants+with+rpms),
-which is **couchdb.x86_64 0.8.1-4.el5**
-
-Tested on MacOSX using [CouchDBX 0.9.0-R13B](http://janl.github.com/couchdbx/)
+Tested versions on Linux:
 
 ### Hyperic HQ version support
 
-Tested with [Hyperic HQ](http://www.hyperic.com/) version 4.1.1
+Tested with [vFabric Hyperic EE](https://www.vmware.com/support/pubs/hyperic-pubs.html) version 5.7.1
 
